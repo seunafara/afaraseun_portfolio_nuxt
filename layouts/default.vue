@@ -7,6 +7,7 @@
 <style>
 html {
   background: black;
+  scroll-behavior: smooth;
 }
 /* width */
 ::-webkit-scrollbar {

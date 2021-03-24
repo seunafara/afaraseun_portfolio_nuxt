@@ -29,7 +29,7 @@
 
 .as-logo-container {
   border-radius: 100px;
-
+  z-index: 999;
   background-attachment: fixed;
   background-size: cover;
   background-color: rgb(29 29 29 / 52%);

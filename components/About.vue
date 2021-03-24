@@ -1,9 +1,10 @@
 <template>
   <div
-    class="flex flex-col lg:flex-row  justify-between as-container as-margin "
-    style="padding-bottom:30px"
+    id="about"
+    class="flex flex-col-reverse lg:flex-row  justify-between as-container as-margin "
+    style="margin-bottom:0rem;margin-top:unset;padding:5rem 0rem;"
   >
-    <div class="flex flex-col w-full lg:w-5/12">
+    <div class="flex flex-col mt-6 lg:mt-0 w-full lg:w-5/12">
       <div class="flex flex-row justify-start items-center">
         <div class="rounded-full p-2 as-about-me">
           <img src="~/assets/img/about_me.png" alt="" class="w-20 h-20" />
@@ -23,9 +24,31 @@
           where I work with people to solve great problems with great code."
         </p>
       </div>
+      <a
+        href="mailto:hi@afaraseun.com"
+        class="flex mt-4 py-4 px-6 text-gray-300 rounded-lg shadow-2xl hover:shadow-inner"
+        style="width:fit-content;background:#ffffff0d"
+      >
+        <svg
+          class="w-6 h-6 mr-2"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+          ></path>
+        </svg>
+        <span class="text-base">Contact me</span></a
+      >
     </div>
+    <!--- Code editor -->
     <div
-      class="rounded-md w-full mt-6  lg:w-2/4 lg:mt-0 shadow-md"
+      class="rounded-md w-full   lg:w-2/4  shadow-md"
       style="background: #171717"
     >
       <div

@@ -1,7 +1,8 @@
 <template>
   <div
+    id="skills"
     class="flex flex-col as-margin"
-    style="margin-bottom:4rem;margin-top:4rem"
+    style="margin-bottom:0rem;margin-top:unset;padding-top:5rem;"
   >
     <h2
       class="text-white uppercase text-2xl text-center font-body font-extrabold lg:text-3xl mb-6"
@@ -84,8 +85,8 @@ export default {
         infinite: true,
         touchMove: false,
         slidesToShow: 5,
-        speed: 2000,
-        autoplaySpeed: 2000,
+        speed: 1855,
+        autoplaySpeed: 1855,
         cssEase: "linear",
         arrows: false,
         autoplay: true,
@@ -94,16 +95,16 @@ export default {
             breakpoint: 600,
             settings: {
               slidesToShow: 2,
-              speed: 1000,
-              autoplaySpeed: 1000
+              speed: 1855,
+              autoplaySpeed: 1855
             }
           },
           {
             breakpoint: 480,
             settings: {
               slidesToShow: 2,
-              speed: 1000,
-              autoplaySpeed: 1000
+              speed: 1855,
+              autoplaySpeed: 1855
             }
           }
         ]
@@ -118,8 +119,8 @@ export default {
         touchMove: false,
         infinite: true,
         slidesToShow: 5,
-        speed: 3000,
-        autoplaySpeed: 3000,
+        speed: 1700,
+        autoplaySpeed: 1700,
         cssEase: "linear",
         arrows: false,
         autoplay: true,
