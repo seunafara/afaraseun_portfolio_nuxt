@@ -44,7 +44,7 @@
   }
 }
 
-@media (min-width: 1282px) {
+/* @media (min-width: 1282px) {
   .as-logo-container {
     left: 2rem !important;
   }
@@ -54,7 +54,7 @@
   .as-logo-container {
     left: 4.4rem !important;
   }
-}
+} */
 
 .as-bg::after {
   content: "";
