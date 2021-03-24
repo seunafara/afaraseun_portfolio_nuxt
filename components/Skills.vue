@@ -77,6 +77,9 @@ export default {
       slickOptions: {
         centerMode: true,
         centerPadding: "20px",
+        focusOnSelect: true,
+        draggable: false,
+        pauseOnHover: false,
         infinite: true,
         slidesToShow: 5,
         speed: 2000,
@@ -102,6 +105,9 @@ export default {
       slickOptions2: {
         centerMode: true,
         centerPadding: "20px",
+        focusOnSelect: true,
+        pauseOnHover: false,
+        draggable: false,
         infinite: true,
         slidesToShow: 5,
         speed: 3000,
