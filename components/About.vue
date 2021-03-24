@@ -17,11 +17,12 @@
         </div>
       </div>
       <div class="mt-4">
-        <p class="text-white text-lg">
+        <p class="text-white text-base">
           "The most disastrous thing that you can ever learn is your first
-          programming language. And that was me, learning PHP 5 years ago. I
-          graduated from the University of Lagos in 2018. I anticipate a future
-          where I work with people to solve great problems with great code."
+          programming language. And that was me, learning PHP 5 years ago.
+          Became a graduate from the University of Lagos in 2018 👨🏾‍🎓. I now write
+          code that works sometimes and when it doesn't, I go to war with the
+          bugs ⚔. Sounds fun, doesn't it?"
         </p>
       </div>
       <a

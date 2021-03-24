@@ -7,6 +7,7 @@
     >
       <a
         data-aos="fade-up"
+        data-aos-delay="150"
         :href="project.link"
         target="_blank"
         class="text-white uppercase text-2xl text-center font-body font-extrabold lg:text-3xl"
@@ -15,6 +16,7 @@
       </a>
       <p
         data-aos="fade-up"
+        data-aos-delay="150"
         class="text-lg text-gray-500 text-center mb-6 lg:text-xl"
       >
         {{ project.desc }}
@@ -50,6 +52,7 @@
         </section>
         <img
           data-aos="fade-up"
+          data-aos-delay="150"
           v-lazy="project.image"
           alt=""
           style="z-index:1"

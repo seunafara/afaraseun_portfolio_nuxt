@@ -5,14 +5,14 @@
       "id": 1,
       "name": "Unzep",
       "link": "https://unzep.com",
-      "desc": "A reviews collection NodeJS web application",
+      "desc": "Business reviews/feedback collection web application - NodeJS",
       "image": "https://res.cloudinary.com/obavigo/image/upload/v1616435568/static/afara/unzep_gkccim.png"
     },
     {
       "id": 2,
       "name": "PFI Capital",
       "link": "https://my.pficapitalltd.com",
-      "desc": "Fintech Savings Application for PFI Capital Limited",
+      "desc": "Financial technology savings application for PFI Capital Limited - Laravel PHP",
       "image": "https://res.cloudinary.com/obavigo/image/upload/v1616510549/static/afara/pfisaver.test_home_Laptop_with_MDPI_screen_aebs8o.png"
     },
     {
@@ -41,7 +41,7 @@
       "id": 6,
       "name": "AskDove",
       "link": "https://askdove.com",
-      "desc": "An online Q&A forum NodeJS web application",
+      "desc": "An online Q&A forum web application - NodeJS",
       "image": "https://res.cloudinary.com/obavigo/image/upload/v1616435552/static/afara/askdove_sxjbsj.png"
     },
     {
