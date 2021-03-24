@@ -7,8 +7,6 @@
     >
       <a
         data-aos="fade-up"
-        data-aos-delay="550"
-        data-aos-offset="10"
         data-aos-duration="1700"
         :href="project.link"
         target="_blank"
@@ -18,8 +16,6 @@
       </a>
       <p
         data-aos="fade-up"
-        data-aos-delay="550"
-        data-aos-offset="10"
         data-aos-duration="1700"
         class="text-lg text-gray-500 text-center mb-6 lg:text-xl"
       >
@@ -56,8 +52,6 @@
         </section>
         <img
           data-aos="fade-up"
-          data-aos-delay="550"
-          data-aos-offset="10"
           data-aos-duration="1700"
           v-lazy="project.image"
           alt=""
