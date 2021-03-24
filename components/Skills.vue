@@ -80,7 +80,9 @@ export default {
         focusOnSelect: true,
         draggable: false,
         pauseOnHover: false,
+        swipe: false,
         infinite: true,
+        touchMove: false,
         slidesToShow: 5,
         speed: 2000,
         autoplaySpeed: 2000,
@@ -91,13 +93,17 @@ export default {
           {
             breakpoint: 600,
             settings: {
-              slidesToShow: 2
+              slidesToShow: 2,
+              speed: 1000,
+              autoplaySpeed: 1000
             }
           },
           {
             breakpoint: 480,
             settings: {
-              slidesToShow: 2
+              slidesToShow: 2,
+              speed: 1000,
+              autoplaySpeed: 1000
             }
           }
         ]
@@ -107,7 +113,9 @@ export default {
         centerPadding: "20px",
         focusOnSelect: true,
         pauseOnHover: false,
+        swipe: false,
         draggable: false,
+        touchMove: false,
         infinite: true,
         slidesToShow: 5,
         speed: 3000,
