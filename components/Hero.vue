@@ -10,11 +10,7 @@
         see some projects done by me.
       </p>
     </div>
-    <img
-      class="md:w-2/4 lg:w-2/5"
-      src="https://afaraseun.com/img/memoji_4.0f03c087.webp"
-      alt=""
-    />
+    <img class="md:w-2/4 lg:w-2/5" src="~/assets/img/hero.png" alt="" />
   </div>
 </template>
 
