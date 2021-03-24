@@ -1,5 +1,5 @@
 <template>
-  <div class="as-container as-nav-pos fixed  top-0 z-10">
+  <div class="as-container as-nav-pos fixed  top-0" style="z-index:100">
     <div class=" as-logo-container flex items-center px-4 py-3 ">
       <div class="as-blur absolute w-full h-full"></div>
       <div
