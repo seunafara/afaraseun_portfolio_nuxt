@@ -33,7 +33,7 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: ["vue-scrollto/nuxt"],
+  modules: [["vue-scrollto/nuxt", { duration: 250 }]],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {}
