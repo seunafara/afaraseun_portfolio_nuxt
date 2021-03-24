@@ -21,8 +21,8 @@
           "The most disastrous thing that you can ever learn is your first
           programming language. And that was me, learning PHP 5 years ago.
           Became a graduate from the University of Lagos in 2018 👨🏾‍🎓. I now write
-          code that works sometimes and when it doesn't, I go to war with the
-          bugs ⚔. Sounds fun, doesn't it?"
+          code that works and when it doesn't, I go to war with the bugs ⚔.
+          Sounds fun, doesn't it?"
         </p>
       </div>
       <a
