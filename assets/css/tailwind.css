@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.as-bg {
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+}
+
+.as-bg-margin {
+  margin-top: 110px !important;
+}
+
+.as-logo-gradient {
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    45deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+}
+
+.as-logo-container {
+  border-radius: 100px;
+
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: rgb(29 29 29 / 52%);
+  box-shadow: 0 0 0.3rem 0 rgb(0 0 0 / 10%);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
+@media (min-width: 768px) {
+  .as-logo-container {
+    width: fit-content !important;
+  }
+}
+
+@media (min-width: 1282px) {
+  .as-logo-container {
+    left: 2rem !important;
+  }
+}
+
+.as-bg::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 64px;
+  z-index: 1;
+}
+
+.as-bg::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 64px;
+  z-index: 1;
+}
+
+.as-blur {
+  -webkit-filter: blur(4px);
+  filter: blur(4px);
+}
+
+.as-skills-slide {
+  width: -webkit-fill-available;
+  width: -moz-available;
+  width: 100%;
+}
+
+.as-container {
+  @apply mx-6 my-4 md:mx-14 lg:mx-36;
+}
+
+.as-margin {
+  @apply my-12 mb-0;
+}
+
+.as-about-me {
+  background: #3cc8b436;
+  -webkit-animation: breathing 2.3s ease-out infinite;
+  animation: breathing 2.3s ease-out infinite;
+}
+
+@-webkit-keyframes breathing {
+  0% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  25% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  60% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  100% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+@keyframes breathing {
+  0% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  25% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+  60% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  100% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}

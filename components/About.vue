@@ -1,0 +1,138 @@
+<template>
+  <div
+    class="flex flex-col lg:flex-row  justify-between as-container as-margin "
+    style="padding-bottom:30px"
+  >
+    <div class="flex flex-col w-full lg:w-5/12">
+      <div class="flex flex-row justify-start items-center">
+        <div class="rounded-full p-2 as-about-me">
+          <img src="~/assets/img/about_me.png" alt="" class="w-20 h-20" />
+        </div>
+        <div class="flex ml-4 flex-col">
+          <h4 class="text-white font-body text-xl font-semibold">Afara Seun</h4>
+          <p class="text-gray-400 font-body text-lg font-semibold">
+            Software Engineer
+          </p>
+        </div>
+      </div>
+      <div class="mt-4">
+        <p class="text-white text-lg">
+          "The most disastrous thing that you can ever learn is your first
+          programming language. And that was me, learning PHP 5 years ago. I
+          graduated from the University of Lagos in 2018. I anticipate a future
+          where I work with people to solve great problems with great code."
+        </p>
+      </div>
+    </div>
+    <div
+      class="rounded-md w-full mt-6  lg:w-2/4 lg:mt-0 shadow-md"
+      style="background: #171717"
+    >
+      <div
+        class="flex rounded-t-md  w-full p-4 pb-0 "
+        style="background: #252525"
+      >
+        <div class="flex items-center ">
+          <div class="w-2.5 h-2.5 rounded-full bg-red-700 mr-2"></div>
+          <div class="w-2.5 h-2.5 rounded-full bg-green-700 mr-2"></div>
+          <div class="w-2.5 h-2.5 rounded-full bg-yellow-400 mr-2"></div>
+        </div>
+        <div class="p-2.5 px-3 ml-2 rounded-t-lg" style="background: #171717">
+          <h4 class="text-red-50 text-base">Hobbies.js</h4>
+        </div>
+      </div>
+      <div class="flex flex-col py-2 px-4">
+        <div class="flex flex-col">
+          <p class="text-white text-base mb-4">
+            <span class="pr-2" style="color:#6272a480">1</span
+            ><span class="pr-2" style="color:#ff79c6">const</span
+            ><span class="pr-2" style="color:#50fa7b">myHobbies</span
+            ><span class="pr-2">=</span><span class="pr-2">[</span
+            ><span class="pr-1">'</span><span class="pr-1">☕</span
+            ><span class="pr-2">'</span><span class="pr-2">,</span
+            ><span class="pr-1">'</span><span class="pr-1">💻</span
+            ><span class="pr-2">'</span><span class="pr-2">,</span
+            ><span class="pr-2">'</span><span class="pr-1">🍷</span
+            ><span class="pr-2">'</span><span class="pr-2">,</span>
+            <span class="pr-2">'</span><span class="pr-1">🎵</span
+            ><span class="pr-2">'</span><span class="pr-2">,</span>
+            <span class="pr-2">'</span><span class="pr-1">🍧</span
+            ><span class="pr-2">'</span><span class="pr-2">,</span>
+            <span class="pr-2">'</span><span class="pr-1">🍗</span
+            ><span class="pr-1">'</span>
+            <span>]</span>
+          </p>
+          <p class="text-white text-base mb-1">
+            <span class="pr-2" style="color:#6272a480">2</span>
+            <span class="pr-2.5 text-pink-400">for</span
+            ><span class="pr-1 text-purple-200">(</span
+            ><span class="pr-2 text-purple-500 ">let</span>
+            <span class="pr-2 text-purple-200">item</span>
+            <span class="pr-2 text-purple-500 ">in</span>
+            <span class="pr-0" style="color:#50fa7b">myHobbies</span>
+            <span class="pr-3 text-purple-200">)</span>
+            <span class="pr-3 text-purple-200">{</span>
+          </p>
+          <p class="text-white text-base mb-1">
+            <span class="pr-10" style="color:#6272a480">3</span>
+            <span class=" text-purple-200">console</span>
+            <span class="text-white">.</span>
+            <span class="text-pink-400">log</span>
+            <span class="text-pink-400">(</span
+            ><span class="pr-0" style="color:#50fa7b">myHobbies</span>
+            <span class="pr-1 text-pink-400">)</span
+            ><span class="text-purple-200">;</span>
+          </p>
+          <p class="text-white text-base mb-3">
+            <span class="pr-2" style="color:#6272a480">4</span>
+            <span class="pr-2.5 text-pink-400">}</span>
+          </p>
+
+          <p class="text-white text-base mb-1">
+            <span class="pr-2" style="color:#6272a480">5</span>
+            <span class="pr-2.5 text-pink-400">for</span
+            ><span class="pr-1 text-purple-200">(</span
+            ><span class="pr-2 text-purple-500 ">let</span>
+            <span class="pr-2 text-purple-200">item</span>
+            <span class="pr-2 text-purple-500 ">of</span>
+            <span class="pr-0" style="color:#50fa7b">myHobbies</span>
+            <span class="pr-3 text-purple-200">)</span>
+            <span class="pr-3 text-purple-200">{</span>
+          </p>
+          <p class="text-white text-base mb-1">
+            <span class="pr-10" style="color:#6272a480">6</span>
+            <span class=" text-purple-200">console</span>
+            <span class="text-white">.</span>
+            <span class="text-pink-400">log</span>
+            <span class="text-pink-400">(</span
+            ><span class="pr-0" style="color:#50fa7b">myHobbies</span>
+            <span class="pr-1 text-pink-400">)</span
+            ><span class="text-purple-200">;</span>
+          </p>
+          <p class="text-white text-base mb-2">
+            <span class="pr-2" style="color:#6272a480">7</span>
+            <span class="pr-2.5 text-pink-400">}</span>
+          </p>
+          <p class="text-white text-base mb-2">
+            <span class="pr-2" style="color:#6272a480">8</span>
+            <span class="pr-2 text-pink-400" style="color:#6272a480">
+              <span class="pr-1">//</span> 1,2,3,4,5</span
+            >
+          </p>
+          <p class="text-white text-base mb-1">
+            <span class="pr-2" style="color:#6272a480">9</span>
+            <span class="pr-2 text-pink-400" style="color:#6272a480">
+              <span class="pr-1">//</span> ☕, 💻, 🍷, 🎵, 🍗, 🍧</span
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {};
+</script>
+
+<style></style>
