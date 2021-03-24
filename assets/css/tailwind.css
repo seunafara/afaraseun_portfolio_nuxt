@@ -44,17 +44,7 @@
   }
 }
 
-/* @media (min-width: 1282px) {
-  .as-logo-container {
-    left: 2rem !important;
-  }
-}
-
-@media (min-width: 1440px) {
-  .as-logo-container {
-    left: 4.4rem !important;
-  }
-} */
+/* */
 
 .as-bg::after {
   content: "";

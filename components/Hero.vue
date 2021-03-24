@@ -5,9 +5,9 @@
     <div>
       <h2 class="text-white text-3xl font-bold lg:text-5xl">Hi, I'm Seun</h2>
       <p class="text-white text-sm mt-2 font-sans lg:text-lg">
-        A frontend developer in the day, a backend developer at night. I build
-        amazing web applications for clients anywhere in the world. Scroll to
-        see some projects done by me.
+        A frontend developer during the day, a backend developer at night. I
+        build amazing web applications for clients anywhere in the world. Scroll
+        to see some projects done by me.
       </p>
     </div>
     <img class="md:w-2/4 lg:w-2/5" src="~/assets/img/hero.png" alt="" />
