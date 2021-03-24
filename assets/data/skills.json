@@ -2,63 +2,68 @@
   "skills": [
     {
       "id": 1,
-      "name": "Flutter",
-      "image": "../../uploads/skills/flutter.png"
+      "name": "Tailwind CSS",
+      "image": "https://res.cloudinary.com/obavigo/image/upload/v1616577659/static/afara/skills/tailwindcss_mvbfqo.png"
     },
     {
       "id": 2,
-      "name": "Javascript",
-      "image": "../../uploads/skills/javascript.png"
+      "name": "Nuxt JS",
+      "image": "https://res.cloudinary.com/obavigo/image/upload/v1616577655/static/afara/skills/nuxt_hhq7kn.png"
     },
     {
       "id": 3,
-      "name": "VueJS",
-      "image": "../../uploads/skills/vue.png"
+      "name": "Node JS",
+      "image": "https://res.cloudinary.com/obavigo/image/upload/v1616515891/static/afara/skills/node_putdfe.png"
     },
     {
       "id": 4,
-      "name": "NodeJS",
-      "image": "../../uploads/skills/node.png"
+      "name": "Mongo DB",
+      "image": "https://res.cloudinary.com/obavigo/image/upload/v1616515891/static/afara/skills/mongodb_wuy0dh.png"
     },
     {
       "id": 5,
       "name": "npm",
-      "image": "../../uploads/skills/npm.png"
+      "image": "https://res.cloudinary.com/obavigo/image/upload/v1616515891/static/afara/skills/npm_yg0vfc.png"
     },
     {
       "id": 6,
       "name": "Git",
-      "image": "../../uploads/skills/git.png"
+      "image": "https://res.cloudinary.com/obavigo/image/upload/v1616515892/static/afara/skills/git_iemr08.png"
     },
     {
       "id": 7,
-      "name": "Laravel PHP",
-      "image": "../../uploads/skills/laravel.png"
+      "name": "Vue JS",
+      "image": "https://res.cloudinary.com/obavigo/image/upload/v1616515892/static/afara/skills/vue_kypm3g.png"
     },
     {
       "id": 8,
-      "name": "HTML",
-      "image": "../../uploads/skills/html.png"
+      "name": "MySQL",
+      "image": "https://res.cloudinary.com/obavigo/image/upload/v1616515891/static/afara/skills/mysql_yumhbx.png"
     },
     {
       "id": 9,
-      "name": "CSS",
-      "image": "../../uploads/skills/css.png"
-    },
-    {
-      "id": 10,
-      "name": "Wordpress",
-      "image": "../../uploads/skills/wordpress.png"
+      "name": "WordPress",
+      "image": "https://res.cloudinary.com/obavigo/image/upload/v1616515892/static/afara/skills/wordpress_n5anwf.png"
     },
     {
       "id": 11,
-      "name": "Adobe XD",
-      "image": "../../uploads/skills/adobe.png"
+      "name": "HTML 5",
+      "image": "https://res.cloudinary.com/obavigo/image/upload/v1616515892/static/afara/skills/html_xhhaji.png"
     },
     {
       "id": 12,
-      "name": "MySQL",
-      "image": "../../uploads/skills/mysql.png"
+      "name": "JavaScript",
+      "image": "https://res.cloudinary.com/obavigo/image/upload/v1616515891/static/afara/skills/javascript_npat60.png"
+    },
+    {
+      "id": 13,
+      "name": "CSS 3",
+      "image": "https://res.cloudinary.com/obavigo/image/upload/v1616515892/static/afara/skills/css_q1v9im.png"
+    },
+    {
+      "id": 14,
+      "name": "Firebase",
+      "image": "https://res.cloudinary.com/obavigo/image/upload/v1616515893/static/afara/skills/firebase_uffkmq.png"
     }
   ]
 }

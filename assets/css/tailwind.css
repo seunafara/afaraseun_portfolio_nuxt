@@ -79,6 +79,7 @@
   width: -webkit-fill-available;
   width: -moz-available;
   width: 100%;
+  overflow: hidden;
 }
 
 .as-container {

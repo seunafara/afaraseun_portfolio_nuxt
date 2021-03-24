@@ -3,6 +3,7 @@
     <Logo />
     <Hero />
     <Works />
+    <Skills />
     <About />
   </div>
 </template>
