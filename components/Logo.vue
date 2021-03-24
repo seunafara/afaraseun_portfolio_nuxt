@@ -11,8 +11,12 @@
         class="as-logo-gradient rounded-full py-1.5 px-2 font-body text-lg text-white font-black"
         >AS</nuxt-link
       >
-      <a class="text-gray-300 ml-6 hover:text-white " href="#skills">Skills</a>
-      <a class="text-gray-300 ml-4 hover:text-white " href="#about">About</a>
+      <a class="text-gray-300 ml-6 hover:text-white " v-scroll-to="'#skills'"
+        >Skills</a
+      >
+      <a class="text-gray-300 ml-4 hover:text-white " v-scroll-to="'#about'"
+        >About</a
+      >
       <a
         class="text-gray-300 flex ml-4 py-2 px-4 rounded-full bg-green-200 hover:text-white "
         style="background:#ffffff0d"

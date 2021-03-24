@@ -85,8 +85,8 @@ export default {
         infinite: true,
         touchMove: false,
         slidesToShow: 5,
-        speed: 2105,
-        autoplaySpeed: 2105,
+        speed: 4105,
+        autoplaySpeed: 4105,
         cssEase: "linear",
         arrows: false,
         autoplay: true,
@@ -95,16 +95,16 @@ export default {
             breakpoint: 600,
             settings: {
               slidesToShow: 2,
-              speed: 2105,
-              autoplaySpeed: 2105
+              speed: 4105,
+              autoplaySpeed: 4105
             }
           },
           {
             breakpoint: 480,
             settings: {
               slidesToShow: 2,
-              speed: 2105,
-              autoplaySpeed: 2105
+              speed: 4105,
+              autoplaySpeed: 4105
             }
           }
         ]
@@ -119,8 +119,8 @@ export default {
         touchMove: false,
         infinite: true,
         slidesToShow: 5,
-        speed: 1950,
-        autoplaySpeed: 1950,
+        speed: 2950,
+        autoplaySpeed: 2950,
         cssEase: "linear",
         arrows: false,
         autoplay: true,

@@ -9,6 +9,7 @@ html {
   background: black;
   scroll-behavior: smooth;
 }
+
 /* width */
 ::-webkit-scrollbar {
   width: 4px;
