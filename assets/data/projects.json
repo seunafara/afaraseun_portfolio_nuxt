@@ -6,21 +6,21 @@
       "name": "Unzep",
       "link": "https://unzep.com",
       "desc": "Business reviews/feedback collection web application - NodeJS",
-      "image": "https://res.cloudinary.com/obavigo/image/upload/v1616435568/static/afara/unzep_gkccim.png"
+      "image": "https://res.cloudinary.com/obavigo/image/upload/v1616659017/static/afara/unzep_fhjf7y.jpg"
     },
     {
       "id": 2,
       "name": "PFI Capital",
       "link": "https://my.pficapitalltd.com",
       "desc": "Financial technology savings application for PFI Capital Limited - Laravel PHP",
-      "image": "https://res.cloudinary.com/obavigo/image/upload/v1616510549/static/afara/pfisaver.test_home_Laptop_with_MDPI_screen_aebs8o.png"
+      "image": "https://res.cloudinary.com/obavigo/image/upload/v1616659090/static/afara/pficapital_rbrjwz.jpg"
     },
     {
       "id": 3,
       "name": "Dangote",
       "link": "https://dangote.com",
       "desc": "The new dangote website (Backend - WordPress)",
-      "image": "https://res.cloudinary.com/obavigo/image/upload/v1616435570/static/afara/dangote_pcjunp.png"
+      "image": "https://res.cloudinary.com/obavigo/image/upload/v1616658873/static/afara/dangote_w1953g.jpg"
     },
 
     {
@@ -28,28 +28,28 @@
       "name": "Vigowork",
       "link": "https://vigowork.com",
       "desc": "Freelance marketplace connecting employers to freelancers.",
-      "image": "https://res.cloudinary.com/obavigo/image/upload/v1616510789/static/afara/vigowork.com__Laptop_with_MDPI_screen_bgf5id.png"
+      "image": "https://res.cloudinary.com/obavigo/image/upload/v1616659141/static/afara/vigowork_loxrzs.jpg"
     },
     {
       "id": 5,
       "name": "Assets Financing",
       "link": "https://assets.nuturemfbank.com/",
       "desc": "Quick Loan application built with Laravel and Vue",
-      "image": "https://res.cloudinary.com/obavigo/image/upload/v1616437501/static/afara/assets.nuturemfbank.com__Laptop_with_MDPI_screen_dhkpka.png"
+      "image": "https://res.cloudinary.com/obavigo/image/upload/v1616659209/static/afara/assets_financing_wdns3t.jpg"
     },
     {
       "id": 6,
       "name": "AskDove",
       "link": "https://askdove.com",
       "desc": "An online Q&A forum web application - NodeJS",
-      "image": "https://res.cloudinary.com/obavigo/image/upload/v1616435552/static/afara/askdove_sxjbsj.png"
+      "image": "https://res.cloudinary.com/obavigo/image/upload/v1616659259/static/afara/askdove_q2ddwt.jpg"
     },
     {
       "id": 7,
       "name": "To My Lover",
       "link": "https://github.com/seunafara/tomylova",
       "desc": "Write letters you can share, change fonts and background. (Opensource, NodeJS)",
-      "image": "https://res.cloudinary.com/obavigo/image/upload/v1616568329/static/afara/localhost_8080__Laptop_with_MDPI_screen_2_oiu45q.png"
+      "image": "https://res.cloudinary.com/obavigo/image/upload/v1616658956/static/afara/tomylover_v6fw4c.jpg"
     }
   ]
 }
