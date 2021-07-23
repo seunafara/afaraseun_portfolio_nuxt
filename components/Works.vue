@@ -1,8 +1,8 @@
 <template>
   <div class="as-container">
     <div
-      v-for="project in projects"
-      :key="project.id"
+      v-for="(project, i) in projects"
+      :key="i"
       class="flex flex-col items-center mt-10 lg:mt-16"
     >
       <a
@@ -35,6 +35,7 @@
             <svg
               class="w-6 h-6 mr-2"
               fill="none"
+              v-if="project.link"
               stroke="currentColor"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
@@ -46,8 +47,26 @@
                 d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
               ></path>
             </svg>
+            <svg
+              class="w-6 h-6 mr-2"
+              v-else
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+              ></path>
+            </svg>
 
-            <span class="text-base">Visit Site</span></a
+            <span class="text-base"
+              ><span v-if="project.link">Visit Site</span>
+              <span v-else>Link Unavailable</span></span
+            ></a
           >
         </section>
         <img
@@ -84,7 +103,6 @@ export default {
   );
 }
 .work-link-overlay {
-  background-color: rgba(0, 0, 0, 0.7);
   position: absolute;
   width: -webkit-fill-available;
   height: 100%;
@@ -94,7 +112,7 @@ export default {
   overflow: hidden;
   background-attachment: fixed;
   background-size: cover;
-  background-color: rgb(29 29 29 / 52%);
+  background-color: rgb(29 29 29 / 75%);
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   opacity: 0;

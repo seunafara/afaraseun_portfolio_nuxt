@@ -27,8 +27,8 @@
       </div>
       <a
         href="mailto:hi@afaraseun.com"
-        class="flex mt-4 py-4 px-6 text-gray-300 rounded-lg shadow-2xl hover:shadow-inner"
-        style="width:fit-content;background:#ffffff0d"
+        class="flex mt-4 py-4 px-6 bg-gray-300 text-gray-700 rounded-lg shadow-2xl hover:shadow-inner"
+        style="width:fit-content;"
       >
         <svg
           class="w-6 h-6 mr-2"
