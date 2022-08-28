@@ -103,7 +103,7 @@
             <span class="text-white">.</span>
             <span class="text-pink-400">log</span>
             <span class="text-pink-400">(</span
-            ><span class="pr-0" style="color:#50fa7b">myHobbies</span>
+            ><span class="pr-0" style="color:#50fa7b">item</span>
             <span class="pr-1 text-pink-400">)</span
             ><span class="text-purple-200">;</span>
           </p>
@@ -129,7 +129,7 @@
             <span class="text-white">.</span>
             <span class="text-pink-400">log</span>
             <span class="text-pink-400">(</span
-            ><span class="pr-0" style="color:#50fa7b">myHobbies</span>
+            ><span class="pr-0" style="color:#50fa7b">item</span>
             <span class="pr-1 text-pink-400">)</span
             ><span class="text-purple-200">;</span>
           </p>
