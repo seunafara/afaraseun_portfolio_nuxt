@@ -25,43 +25,11 @@
         </div>
       </VueSlickCarousel>
     </div>
-    <div class="as-skills-slide mb-4">
-      <VueSlickCarousel v-bind="slickOptions2">
-        <div
-          v-for="skill in skills_second"
-          :key="skill.id"
-          class="as-slide-card rounded-md bg-gray-900 shadow-2xl p-5 py-6 text-white flex items-center"
-        >
-          <img :src="skill.image" class="w-6 h-6" alt="" />
-          <h4
-            class="ml-2 text-sm md:text-base whitespace-nowrap text-white inline-flex"
-          >
-            {{ skill.name }}
-          </h4>
-        </div>
-      </VueSlickCarousel>
-    </div>
-    <div class="as-skills-slide mb-4">
-      <VueSlickCarousel v-bind="slickOptions">
-        <div
-          v-for="skill in skills_third"
-          :key="skill.id"
-          class="as-slide-card rounded-md bg-gray-900 shadow-2xl p-5 py-6 text-white flex items-center"
-        >
-          <img :src="skill.image" class="w-6 h-6" alt="" />
-          <h4
-            class="ml-2 text-sm md:text-base whitespace-nowrap text-white inline-flex"
-          >
-            {{ skill.name }}
-          </h4>
-        </div>
-      </VueSlickCarousel>
-    </div>
   </div>
 </template>
 
 <script>
-import skills from "../assets/data/skills.json";
+import { skills } from "../assets/data/skills.json";
 import VueSlickCarousel from "vue-slick-carousel";
 import "vue-slick-carousel/dist/vue-slick-carousel.css";
 export default {
@@ -70,11 +38,10 @@ export default {
   },
 
   data() {
-    var self = this;
     return {
-      skills: skills.skills,
-      skills_second: skills.skills,
-      skills_third: skills.skills,
+      skills,
+      skills_second: skills,
+      skills_third: skills,
       slickOptions: {
         centerMode: true,
         centerPadding: "20px",
@@ -109,37 +76,6 @@ export default {
           }
         ]
       },
-      slickOptions2: {
-        centerMode: true,
-        centerPadding: "20px",
-        focusOnSelect: true,
-        pauseOnHover: false,
-        swipe: false,
-        draggable: false,
-        touchMove: false,
-        infinite: true,
-        slidesToShow: 5,
-        speed: 4650,
-        autoplaySpeed: 4650,
-        cssEase: "linear",
-        arrows: false,
-        autoplay: true,
-        rtl: true,
-        responsive: [
-          {
-            breakpoint: 600,
-            settings: {
-              slidesToShow: 2
-            }
-          },
-          {
-            breakpoint: 480,
-            settings: {
-              slidesToShow: 2
-            }
-          }
-        ]
-      }
     };
   },
   mounted() {
