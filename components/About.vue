@@ -146,7 +146,7 @@
           <p class="text-white text-base mb-1">
             <span class="pr-2" style="color:#6272a480">9</span>
             <span class="pr-2 text-pink-400" style="color:#6272a480">
-              <span class="pr-1">//</span> ☕, 💻, 🍷, 🎵, 🍗, 🍧</span
+              <span class="pr-1">//</span> ☕, 💻, 🍷, 🎵, 🍧, 🍗</span
             >
           </p>
         </div>
