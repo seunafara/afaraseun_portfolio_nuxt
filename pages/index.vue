@@ -12,7 +12,7 @@
 export default {
   head() {
     return {
-      title: `Full Stack Engineer`,
+      title: `Software Engineer`,
       titleTemplate: "%s | Afara Seun",
       meta: [
         {
@@ -31,7 +31,7 @@ export default {
         {
           name: "keywords",
           content:
-            "Afara Seun, Afara Seun Abiola,About Afara Seun,Who is Afara Seun, Software engineer Afara seun"
+            "Afara Seun, Afara Seun Abiola,About Afara Seun,Who is Afara Seun, Software engineer Afara seun, Software Engineer, Full stack developer, VueJS developer"
         }
       ]
     };
