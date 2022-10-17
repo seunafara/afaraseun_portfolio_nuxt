@@ -1,5 +1,5 @@
 export default {
-  target: 'static',
+  target: "static",
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: "afaraseun_portfolio",
@@ -16,6 +16,12 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [],
+
+  script: [
+    {
+      src: "https://www.googletagmanager.com/gtag/js?id=G-LP7C3J39BX",
+    },
+  ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [

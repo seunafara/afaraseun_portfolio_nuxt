@@ -4,6 +4,21 @@
   </div>
 </template>
 
+<script>
+export default {
+  head() {
+    return {}
+  },
+  mounted: () => {
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-LP7C3J39BX');
+  },
+}
+</script>
+
 <style>
 html {
   background: black;
