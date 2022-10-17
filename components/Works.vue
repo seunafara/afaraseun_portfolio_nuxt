@@ -10,7 +10,13 @@
         data-aos-duration="1700"
         :href="project.link"
         target="_blank"
-        class="text-white uppercase text-2xl text-center font-body font-extrabold lg:text-3xl"
+        class="
+          text-white
+          uppercase
+          text-2xl text-center
+          font-body font-extrabold
+          lg:text-3xl
+        "
       >
         {{ project.name }}
       </a>
@@ -24,13 +30,13 @@
       <div class="preview-img-wrapper relative">
         <section
           class="work-link-overlay flex justify-center items-center"
-          style="z-index:99"
+          style="z-index: 99"
         >
           <a
             :href="project.link"
             target="_blank"
             class="flex mt-4 py-4 px-6 text-gray-300 rounded-lg shadow-2xl"
-            style="width:fit-content;background:#ffffff0d"
+            style="width: fit-content; background: #ffffff0d"
           >
             <svg
               class="w-6 h-6 mr-2"
@@ -74,7 +80,7 @@
           data-aos-duration="1700"
           v-lazy="project.image"
           alt=""
-          style="z-index:1"
+          style="z-index: 1"
         />
       </div>
     </div>
@@ -82,13 +88,13 @@
 </template>
 
 <script>
-import projects from "../assets/data/projects.json";
+import { projects } from "../assets/data/projects.json";
 export default {
   data() {
     return {
-      projects: projects.projects
+      projects,
     };
-  }
+  },
 };
 </script>
 
