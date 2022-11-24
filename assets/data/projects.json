@@ -4,45 +4,51 @@
     {
       "name": "Accrue 💲",
       "link": "https://accrue.io",
-      "desc": "Pricing focused finTech company - VueJS (Frontend)",
-      "image": "https://res.cloudinary.com/obavigo/image/upload/v1665676657/static/afara/Accrue_vb7xqy.png"
+      "desc": "Pricing optimization finTech company",
+      "image": "https://res.cloudinary.com/obavigo/image/upload/v1669313260/static/afara/A05F5706-50DA-404C-B61C-645CEACB4B20_yveg9w.jpg"
+    },
+    {
+      "name": "Predeet ⚽️",
+      "link": "https://predeet.com",
+      "desc": "Sports prediction website for pundits",
+      "image": "https://res.cloudinary.com/obavigo/image/upload/v1669313533/static/afara/Unlimited-Winning-Tips-Predeet_oqgslu.png"
     },
     {
       "name": "Unzep ⭐️",
       "link": "https://unzep.com",
-      "desc": "Business reviews/feedback collection web application - NodeJS",
+      "desc": "Business reviews/feedback collection web application",
       "image": "https://res.cloudinary.com/obavigo/image/upload/v1616659017/static/afara/unzep_fhjf7y.jpg"
     },
     {
       "name": "Realty Pro 🏠",
       "link": "https://codecanyon.net/item/realty-pro-real-estate-investment-platform/32773703",
-      "desc": "Real estate investment web application script - Laravel PHP & VueJS",
+      "desc": "Real estate investment web application script",
       "image": "https://res.cloudinary.com/obavigo/image/upload/v1627071256/static/afara/Realty_Pro_-_The_paklx2.png"
     },
 
     {
       "name": "eMov - User ✈️",
       "link": "",
-      "desc": "ECOWAS Travel Certficate Application - Frontend Development",
+      "desc": "ECOWAS Travel Certficate Application",
       "image": "https://res.cloudinary.com/obavigo/image/upload/v1627071831/static/afara/eMov_qeublv.png"
     },
 
     {
       "name": "eMov - Admin ✈️",
       "link": "",
-      "desc": "ECOWAS Travel Certficate Application - Frontend Development",
+      "desc": "ECOWAS Travel Certficate Application",
       "image": "https://res.cloudinary.com/obavigo/image/upload/v1627072217/static/afara/EMOV_ADMIN_umvtsl.png"
     },
     {
       "name": "PFI Capital 💰",
       "link": "https://my.pficapitalltd.com",
-      "desc": "Financial technology savings application for PFI Capital Limited - Laravel PHP",
+      "desc": "Financial technology savings application for PFI Capital Limited",
       "image": "https://res.cloudinary.com/obavigo/image/upload/v1616659090/static/afara/pficapital_rbrjwz.jpg"
     },
     {
       "name": "Dangote 🪦",
       "link": "https://dangote.com",
-      "desc": "The new dangote website (Backend - WordPress)",
+      "desc": "The new dangote website",
       "image": "https://res.cloudinary.com/obavigo/image/upload/v1616658873/static/afara/dangote_w1953g.jpg"
     },
 
@@ -55,19 +61,19 @@
     {
       "name": "Assets Financing 🏦",
       "link": "https://assets.nuturemfbank.com/",
-      "desc": "Quick Loan application built with Laravel and Vue",
+      "desc": "Buy now, Pay later for University students",
       "image": "https://res.cloudinary.com/obavigo/image/upload/v1616659209/static/afara/assets_financing_wdns3t.jpg"
     },
     {
       "name": "AskDove 🕊",
       "link": "https://askdove.com",
-      "desc": "An online Q&A forum web application - NodeJS",
+      "desc": "An online Q&A forum web application",
       "image": "https://res.cloudinary.com/obavigo/image/upload/v1616659259/static/afara/askdove_q2ddwt.jpg"
     },
     {
       "name": "To My Lover 💌",
       "link": "https://github.com/seunafara/tomylova",
-      "desc": "Write letters you can share, change fonts and background. (Opensource, NodeJS)",
+      "desc": "Write letters you can share, change fonts and background. (Opensource)",
       "image": "https://res.cloudinary.com/obavigo/image/upload/v1616658956/static/afara/tomylover_v6fw4c.jpg"
     }
   ]
