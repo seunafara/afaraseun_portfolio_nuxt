@@ -9,8 +9,7 @@
       <p
         class="text-white text-sm text-justify mt-2 font-sans lg:w-3/4 lg:text-lg"
       >
-        A frontend developer during the day, a backend developer at night. I
-        build amazing web applications for clients anywhere in the world. Scroll
+        A software Engineer with over 7+ years of experience. Scroll down
         to see some projects done by me.
       </p>
     </div>
