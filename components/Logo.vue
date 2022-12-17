@@ -23,7 +23,7 @@
         <a
           class="text-gray-300 flex ml-4 py-2 px-4 rounded-full bg-green-200 hover:text-white "
           style="background:#ffffff0d"
-          href="https://vue.vigowork.com/uploads/AFARA_SEUN_RESUME.pdf"
+          href="/Afara_Seun_Abiola_Resume.pdf"
           download="AFARA_SEUN_RESUME.pdf"
           ><span class="mr-1 hidden lg:block">Download </span>Resume</a
         >
