@@ -18,11 +18,7 @@
       </div>
       <div class="mt-4">
         <p class="text-white text-base">
-          "The most disastrous thing that you can ever learn is your first
-          programming language. And that was me, learning PHP 5 years ago.
-          Became a graduate from the University of Lagos in 2018 👨🏾‍🎓. I now write
-          code that works and when it doesn't, I go to war with the bugs ⚔.
-          Sounds fun, doesn't it?"
+          "I learned PHP five years ago and have been improving my skills ever since. I graduated from the University of Lagos in 2018 and am now proficient in writing efficient code. When I encounter bugs, I am confident in my ability to troubleshoot and resolve them. I find programming to be a challenging but rewarding field, and I am always eager to continue learning."
         </p>
       </div>
       <a
