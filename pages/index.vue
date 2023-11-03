@@ -1,6 +1,6 @@
 <template>
   <div class="container font-body mx-auto relative">
-    <Logo />
+    <Header />
     <Hero />
     <Works />
     <Skills />

@@ -1,6 +1,11 @@
 {
-  "last_id": "7",
   "projects": [
+    {
+      "name": "Platform Science 🚛",
+      "link": "https://www.platformscience.com/",
+      "desc": "Telematics + Fleet Management",
+      "image": "https://res.cloudinary.com/obavigo/image/upload/v1699048976/static/afara/bqg5ekadjv312n9ynmnr.png"
+    },
     {
       "name": "Accrue 💲",
       "link": "https://accrue.io",
@@ -56,18 +61,6 @@
       "link": "https://assets.nuturemfbank.com/",
       "desc": "Buy now, Pay later for University students",
       "image": "https://res.cloudinary.com/obavigo/image/upload/v1616659209/static/afara/assets_financing_wdns3t.jpg"
-    },
-    {
-      "name": "AskDove 🕊",
-      "link": "https://askdove.com",
-      "desc": "An online Q&A forum web application",
-      "image": "https://res.cloudinary.com/obavigo/image/upload/v1616659259/static/afara/askdove_q2ddwt.jpg"
-    },
-    {
-      "name": "To My Lover 💌",
-      "link": "https://github.com/seunafara/tomylova",
-      "desc": "Write letters you can share, change fonts and background. (Opensource)",
-      "image": "https://res.cloudinary.com/obavigo/image/upload/v1616658956/static/afara/tomylover_v6fw4c.jpg"
     }
   ]
 }

@@ -18,11 +18,11 @@
       </div>
       <div class="mt-4">
         <p class="text-white text-base">
-          "I learned PHP five years ago and have been improving my skills ever since. I graduated from the University of Lagos in 2018 and am now proficient in writing efficient code. When I encounter bugs, I am confident in my ability to troubleshoot and resolve them. I find programming to be a challenging but rewarding field, and I am always eager to continue learning."
+          "Over the past seven years, I have continually advanced my proficiency in software engineering, building upon a solid academic foundation received from the University of Lagos, where I graduated in 2018. My professional journey has been marked by a dedication to writing clean, efficient code, and I have developed a robust methodology for debugging and problem resolution. I am passionate about the dynamic and intellectually stimulating nature of software engineering, and I remain committed to lifelong learning and excellence in this ever-evolving field.""
         </p>
       </div>
       <a
-        href="mailto:hi@afaraseun.com"
+        href="mailto:seunvigo@gmail.com"
         class="flex mt-4 py-4 px-6 bg-gray-300 text-gray-700 rounded-lg shadow-2xl hover:shadow-inner"
         style="width:fit-content;"
       >
