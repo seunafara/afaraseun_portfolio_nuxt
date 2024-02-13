@@ -1,6 +1,12 @@
 {
   "projects": [
     {
+      "name": "Predeet ⚽️",
+      "link": "https://predeet.com",
+      "desc": "AI Sentiment Analysis for live football matches.",
+      "image": "https://res.cloudinary.com/obavigo/image/upload/v1707849237/predeet_x6sh20.png"
+    },
+    {
       "name": "Platform Science 🚛",
       "link": "https://www.platformscience.com/",
       "desc": "Telematics + Fleet Management",
@@ -11,12 +17,6 @@
       "link": "https://accrue.io",
       "desc": "Pricing optimization finTech company",
       "image": "https://res.cloudinary.com/obavigo/image/upload/v1669313260/static/afara/A05F5706-50DA-404C-B61C-645CEACB4B20_yveg9w.jpg"
-    },
-    {
-      "name": "Predeet ⚽️",
-      "link": "https://predeet.com",
-      "desc": "Sports prediction website for pundits",
-      "image": "https://res.cloudinary.com/obavigo/image/upload/v1669313533/static/afara/Unlimited-Winning-Tips-Predeet_oqgslu.png"
     },
     {
       "name": "Unzep ⭐️",
