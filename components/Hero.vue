@@ -9,7 +9,7 @@
       <p
         class="text-white text-sm text-justify mt-2 font-sans lg:w-3/4 lg:text-lg"
       >
-       I like to write code, play EAFC, definitely not scroll on social media and hopes to take youtubing serious one day! I make cool things, scroll to see...
+       I like to write code, play EAFC, hate on social media and teach on Youtube (oddstack)! I make cool web stuff, check them out...
       </p>
     </div>
     <!-- <img class="md:w-2/4 lg:w-2/5" src="~/assets/img/hero.png" alt="" /> -->
