@@ -7,18 +7,14 @@
     <div class="flex flex-col mt-6 lg:mt-0 w-full lg:w-5/12">
       <div class="flex flex-row justify-start items-center">
         <div class="rounded-full p-2 as-about-me">
-          <img src="~/assets/img/about_me.png" alt="" class="w-20 h-20" />
+          <!-- <img src="~/assets/img/about_me.png" alt="" class="w-20 h-20" /> -->
         </div>
         <div class="flex ml-4 flex-col">
-          <h4 class="text-white font-body text-xl font-semibold">Afara Seun</h4>
-          <p class="text-gray-400 font-body text-lg font-semibold">
-            Software Engineer
-          </p>
         </div>
       </div>
       <div class="mt-4">
         <p class="text-white text-base">
-          "Over the past seven years, I have continually advanced my proficiency in software engineering, building upon a solid academic foundation received from the University of Lagos, where I graduated in 2018. My professional journey has been marked by a dedication to writing clean, efficient code, and I have developed a robust methodology for debugging and problem resolution. I am passionate about the dynamic and intellectually stimulating nature of software engineering, and I remain committed to lifelong learning and excellence in this ever-evolving field.""
+          That's all! Say NO to internet spam! If you play EAFC, add me up: <b>cosmic-pager1</b>. See ya!
         </p>
       </div>
       <a
