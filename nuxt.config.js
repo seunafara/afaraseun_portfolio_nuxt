@@ -1,4 +1,5 @@
 export default {
+  compatibilityDate: '2026-04-07',
   target: "static",
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
