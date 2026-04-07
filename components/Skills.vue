@@ -10,7 +10,7 @@
       My Skills
     </h2>
     <div class="as-skills-slide mb-4">
-      <VueSlickCarousel v-bind="slickOptions">
+      <div>
         <div
           v-for="skill in skills"
           :key="skill.id"
@@ -23,20 +23,16 @@
             {{ skill.name }}
           </h4>
         </div>
-      </VueSlickCarousel>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
 import { skills } from "../assets/data/skills.json";
-import VueSlickCarousel from "vue-slick-carousel";
-import "vue-slick-carousel/dist/vue-slick-carousel.css";
 export default {
   components: {
-    VueSlickCarousel
   },
-
   data() {
     return {
       skills,
@@ -78,11 +74,7 @@ export default {
       },
     };
   },
-  mounted() {
-    this.skills = this.$_.shuffle(this.skills);
-    this.skills_second = this.$_.shuffle(this.skills_second);
-    this.skills_third = this.$_.shuffle(this.skills_third);
-  }
+  mounted() {}
 };
 </script>
 

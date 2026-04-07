@@ -1,48 +1,55 @@
-export default {
+
+export default defineNuxtConfig({
+  modules: ['@nuxtjs/tailwindcss'],
   compatibilityDate: '2026-04-07',
-  target: "static",
-  // Global page headers: https://go.nuxtjs.dev/config-head
-  head: {
-    title: "afaraseun_portfolio",
-    htmlAttrs: {
-      lang: "en",
-    },
-    meta: [
-      { charset: "utf-8" },
-      { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { hid: "description", name: "description", content: "" },
-    ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+  vite: {
+    optimizeDeps: {
+      include: [
+        '@vue/devtools-core',
+        '@vue/devtools-kit',
+      ]
+    }
   },
+})
 
-  // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [],
+// export default {
+//   compatibilityDate: '2026-04-07',
+//   target: "static",
+//   // Global page headers: https://go.nuxtjs.dev/config-head
+//   head: {
+//     title: "afaraseun_portfolio",
+//     htmlAttrs: {
+//       lang: "en",
+//     },
+//     meta: [
+//       { charset: "utf-8" },
+//       { name: "viewport", content: "width=device-width, initial-scale=1" },
+//       { hid: "description", name: "description", content: "" },
+//     ],
+//     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+//   },
 
-  script: [
-    {
-      src: "https://www.googletagmanager.com/gtag/js?id=G-LP7C3J39BX",
-    },
-  ],
+//   // Global CSS: https://go.nuxtjs.dev/config-css
+//   css: [],
 
-  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [
-    { src: "~/plugins/aos", ssr: false },
-    { src: "~/plugins/lazyload" },
-    { src: "~/plugins/underscore", ssr: false },
-  ],
+//   script: [
+//     {
+//       src: "https://www.googletagmanager.com/gtag/js?id=G-LP7C3J39BX",
+//     },
+//   ],
 
-  // Auto import components: https://go.nuxtjs.dev/config-components
-  components: true,
+//   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
+//   plugins: [],
 
-  // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: [
-    // https://go.nuxtjs.dev/tailwindcss
-    "@nuxtjs/tailwindcss",
-  ],
+//   // Auto import components: https://go.nuxtjs.dev/config-components
+//   components: true,
 
-  // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [["vue-scrollto/nuxt", { duration: 250 }]],
+//   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
 
-  // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
-};
+
+//   // Modules: https://go.nuxtjs.dev/config-modules
+//   modules: [],
+
+//   // Build Configuration: https://go.nuxtjs.dev/config-build
+//   build: {},
+// };

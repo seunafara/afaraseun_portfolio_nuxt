@@ -12,12 +12,10 @@
         >
         <a
           class="text-gray-300 ml-6 hover:text-white cursor-pointer"
-          v-scroll-to="'#skills'"
           >Skills</a
         >
         <a
           class="text-gray-300 ml-4 hover:text-white cursor-pointer"
-          v-scroll-to="'#about'"
           >About</a
         >
         <a
